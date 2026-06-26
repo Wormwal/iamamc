@@ -38,8 +38,8 @@
     .header_img img{
         padding:inherit;
         margin:auto;
-        max-width:12%;
-        min-width:12%;
+        max-width:10%;
+        min-width:8%;
         display:block;
     }
     .header_nav{
@@ -145,8 +145,8 @@ header{
 .header_img img{
     padding:inherit;
     margin:auto;
-    max-width:12%;
-    min-width:12%;
+    max-width:10%;
+    min-width:8%;
     display:block;
 }
 .header_nav{
