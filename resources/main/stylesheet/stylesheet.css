@@ -28,10 +28,11 @@
 
     main{
         font-family:"Didact Gothic";
+        overflow: hidden;
     }
     header{
-        max-height:220px;
-        min-height:120px;
+        max-height:160px;
+        min-height:80px;
         background-color: #ffffff;
     }
     .header_img img{
@@ -58,6 +59,11 @@
         scroll-snap-type:y mandatory;
         scroll-snap-type:mandatory;
         overflow:auto;*/
+        -ms-overflow-style: none; /* Hides IE and Edge scrollbar */
+        scrollbar-width: none; /* Hides Firefox scrollbar */
+    }
+    body .index_section::-webkit-scrollbar{
+        display:none; /* Hides Webkit browsers scrollbar */
     }
     body .index_section section{
         justify-content:center;
@@ -132,8 +138,8 @@ main{
     font-family:"Didact Gothic";
 }
 header{
-    max-height:220px;
-    min-height:120px;
+    max-height:160px;
+    min-height:80px;
     background-color: #ffffff;
 }
 .header_img img{
@@ -161,6 +167,11 @@ body .index_section{
     scroll-snap-type:y mandatory;
     scroll-snap-type:mandatory;
     overflow:auto;
+    -ms-overflow-style: none; /* Hides IE and Edge scrollbar */
+    scrollbar-width: none; /* Hides Firefox scrollbar */
+}
+body .index_section::-webkit-scrollbar{
+    display:none; /* Hides Webkit browsers scrollbar */
 }
 body .index_section section{
     justify-content:center;
