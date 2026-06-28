@@ -1,0 +1,212 @@
+/*Cascading Style Sheet for index.html*/
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url("../../fonts/noto_sans/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Sans Italic";
+    src: local("Noto Sans"), url("../../fonts/noto_sans/NotoSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Didact Gothic";
+    src: local("Didact Gothic"), url("../../fonts/didact_gothic/DidactGothic-Regular.ttf") format("truetype");
+}
+
+@media screen and (min-width:1052px) and (min-height:478px) {
+
+    /*Cascading Style Sheet for index.html (for small screens)*/
+    @font-face {
+        font-family: "Noto Sans";
+        src: local("Noto Sans"), url("../../fonts/noto_sans/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Noto Sans Italic";
+        src: local("Noto Sans"), url("../../fonts/noto_sans/NotoSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Didact Gothic";
+        src: local("Didact Gothic"), url("../../fonts/didact_gothic/DidactGothic-Regular.ttf") format("truetype");
+    }
+
+    main {
+        font-family: "Didact Gothic";
+        overflow: hidden;
+    }
+
+    header {
+        max-height: 160px;
+        min-height: 80px;
+        background-color: #ffffff;
+    }
+
+    .header_img img {
+        padding: inherit;
+        margin: auto;
+        max-width: 10%;
+        min-width: 8%;
+        display: block;
+    }
+
+    .header_nav {
+        text-align: center;
+        display: flex;
+        margin-left: 40%;
+        margin-right: 50%;
+        padding: inherit;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    body .archive_section {
+        width: 100%;
+        -ms-overflow-style: none;
+        /* Hides IE and Edge scrollbar */
+        scrollbar-width: none;
+        /* Hides Firefox scrollbar */
+    }
+
+    body .archive_section::-webkit-scrollbar {
+        display: none;
+        /* Hides Webkit browsers scrollbar */
+    }
+
+    body .archive_section section {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 3.75rem;
+        padding-bottom: 6.25rem;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .archive_section {
+        text-align: justify;
+        display: flex !important;
+    }
+
+    .section_charter_desc {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
+        background-size: cover;
+        transition-property: all;
+        transition-duration: 1s;
+
+        &:hover {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
+            background-size: cover;
+            transform: scale(102.5%);
+        }
+    }
+
+    .charter_view_content object {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        height: 478px;
+        padding: inherit;
+    }
+
+    footer {
+        font-family: "Didact Gothic";
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+main {
+    font-family: "Didact Gothic";
+}
+
+header {
+    max-height: 160px;
+    min-height: 80px;
+    background-color: #ffffff;
+}
+
+.header_img img {
+    padding: inherit;
+    margin: auto;
+    max-width: 10%;
+    min-width: 8%;
+    display: block;
+}
+
+.header_nav {
+    text-align: center;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 50%;
+    padding: inherit;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+body .archive_section {
+    width: 100%;
+    height: 80vh;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-type: y mandatory;
+    scroll-snap-type: mandatory;
+    overflow: auto;
+    -ms-overflow-style: none;
+    /* Hides IE and Edge scrollbar */
+    scrollbar-width: none;
+    /* Hides Firefox scrollbar */
+}
+
+body .archive_section::-webkit-scrollbar {
+    display: none;
+    /* Hides Webkit browsers scrollbar */
+}
+
+body .archive_section section {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    scroll-snap-align: start;
+    padding-top: 3.75rem;
+    padding-bottom: 6.25rem;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.archive_section {
+    text-align: justify;
+    display: block;
+}
+
+
+.section_charter_desc {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 1s;
+
+    &:hover {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
+        background-size: cover;
+        transform: scale(102.5%);
+    }
+}
+
+.charter_view_content object {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    height: 478px;
+    padding: inherit;
+}
+
+footer {
+    font-family: "Didact Gothic";
+    margin-left: 16px;
+    margin-right: 16px;
+}
