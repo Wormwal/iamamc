@@ -46,8 +46,8 @@
     .header_img img {
         padding: inherit;
         margin: auto;
-        max-width: 10%;
-        min-width: 8%;
+        max-width: 8%;
+        min-width: 6%;
         display: block;
     }
 
@@ -116,6 +116,8 @@
         font-family: "Didact Gothic";
         margin-left: 16px;
         margin-right: 16px;
+        text-align: center !important;
+        font-size: 80%;
     }
 }
 
@@ -132,8 +134,8 @@ header {
 .header_img img {
     padding: inherit;
     margin: auto;
-    max-width: 10%;
-    min-width: 8%;
+    max-width: 8%;
+    min-width: 6%;
     display: block;
 }
 
@@ -209,4 +211,6 @@ footer {
     font-family: "Didact Gothic";
     margin-left: 16px;
     margin-right: 16px;
+    text-align: center !important;
+    font-size: 80%;
 }

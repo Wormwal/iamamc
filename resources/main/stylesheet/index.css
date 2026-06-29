@@ -135,39 +135,39 @@
     }
 
     .section_about {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transition-property: all;
         transition-duration: 1s;
 
         &:hover {
-            background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/");
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
             background-size: cover;
             transform: scale(102.5%);
         }
     }
 
     .section_vision {
-        background: linear-gradient(to right, rgba(255, 235, 145, 0.5), rgba(255, 200, 0, 0.5)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(255, 235, 145, 0.5), rgba(255, 200, 0, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transition-property: all;
         transition-duration: 1s;
 
         &:hover {
-            background: linear-gradient(to right, rgba(255, 235, 145, 0.80), rgba(255, 200, 0, 0.80)), url("../../../resources/images/home_page/");
+            background: linear-gradient(to right, rgba(255, 235, 145, 0.80), rgba(255, 200, 0, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
             background-size: cover;
             transform: scale(102.5%);
         }
     }
 
     .section_forum {
-        background: linear-gradient(to right, rgba(143, 173, 254, 0.5), rgba(0, 68, 255, 0.5)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(143, 173, 254, 0.5), rgba(0, 68, 255, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transition-property: all;
         transition-duration: 1s;
 
         &:hover {
-            background: linear-gradient(to right, rgba(143, 173, 254, 0.80), rgba(0, 68, 255, 0.80)), url("../../../resources/images/home_page/");
+            background: linear-gradient(to right, rgba(143, 173, 254, 0.80), rgba(0, 68, 255, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
             background-size: cover;
             transform: scale(102.5%);
         }
@@ -178,6 +178,7 @@
         margin-left: 16px;
         margin-right: 16px;
         text-align: center !important;
+        font-size: 80%;
     }
 }
 
@@ -288,39 +289,39 @@ body .index_section section {
 }
 
 .section_about {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/");
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(233, 233, 233, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
 
     &:hover {
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.80), rgba(233, 233, 233, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transform: scale(102.5%);
     }
 }
 
 .section_vision {
-    background: linear-gradient(to right, rgba(255, 235, 145, 0.5), rgba(255, 200, 0, 0.5)), url("../../../resources/images/home_page/");
+    background: linear-gradient(to right, rgba(255, 235, 145, 0.5), rgba(255, 200, 0, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
 
     &:hover {
-        background: linear-gradient(to right, rgba(255, 235, 145, 0.80), rgba(255, 200, 0, 0.8)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(255, 235, 145, 0.80), rgba(255, 200, 0, 0.8)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transform: scale(102.5%);
     }
 }
 
 .section_forum {
-    background: linear-gradient(to right, rgba(143, 173, 254, 0.5), rgba(0, 68, 255, 0.5)), url("../../../resources/images/home_page/");
+    background: linear-gradient(to right, rgba(143, 173, 254, 0.5), rgba(0, 68, 255, 0.5)), url("../../../resources/images/home_page/placeholder.jpg");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
 
     &:hover {
-        background: linear-gradient(to right, rgba(143, 173, 254, 0.80), rgba(0, 68, 255, 0.80)), url("../../../resources/images/home_page/");
+        background: linear-gradient(to right, rgba(143, 173, 254, 0.80), rgba(0, 68, 255, 0.80)), url("../../../resources/images/home_page/placeholder.jpg");
         background-size: cover;
         transform: scale(102.5%);
     }
@@ -344,11 +345,17 @@ body .index_section section {
 .button-discord-link {
     background-color: #5865F2;
     background: linear-gradient(to right, #5865F2 0%, #6f57b3 100%);
+    font-size: 80%;
 
     &:hover {
         background: linear-gradient(to left, #5865F2 0%, #6f57b3 100%);
         transform: scale(102%);
     }
+}
+
+.agreement-forum {
+    font-size: 80% !important;
+    margin-top: 0% !important;
 }
 
 .button-instagram-link {
@@ -408,4 +415,5 @@ footer {
     margin-left: 16px;
     margin-right: 16px;
     text-align: center !important;
+    font-size: 80%;
 }
