@@ -327,6 +327,14 @@ body .index_section section {
     }
 }
 
+.section_forum p {
+    color: #ffffff !important;
+}
+
+.section_forum h2 {
+    color: #ffffff !important;
+}
+
 .button-discord-link {
     display: flex;
     border-radius: 4px;
@@ -355,7 +363,6 @@ body .index_section section {
 
 .agreement-forum {
     font-size: 80% !important;
-    color: #ffffff !important;
     margin-top: 0% !important;
 }
 
